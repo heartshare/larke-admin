@@ -24,7 +24,7 @@ if (! function_exists('larke_success')) {
             {
                 return $this->success($message, $data, $header, $code);
             }
-        })->json($message, $data, $code, $header);
+        })->json($message, $data, $header, $code);
     }
 }
 
